@@ -1,0 +1,17 @@
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: default
+
+plugins:
+  - jekyll-readme-index
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+readme_index:
+  enabled: true
+  remove_originals: false
+  with_frontmatter: true
