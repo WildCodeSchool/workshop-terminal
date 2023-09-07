@@ -1,17 +1,10 @@
+remote_theme: WildCodeSchool/workshops-jekyll-theme
+
 defaults:
   - scope:
       path: "" # an empty string here means all files in the project
     values:
-      layout: default
+      layout: "default" # possible values: default or tic-tac
 
-plugins:
-  - jekyll-readme-index
-
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-
-readme_index:
-  enabled: true
-  remove_originals: false
-  with_frontmatter: true
+title: "Terminal Workshop"
+show_clone: false
