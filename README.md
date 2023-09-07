@@ -1,9 +1,3 @@
----
-style: dev
-title: Terminal workshop
-type: Workshop
----
-
 # Journey to the centre of the computer
 
 [⬅ Version FR](./README-FR)

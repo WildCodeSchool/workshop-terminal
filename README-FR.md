@@ -1,9 +1,3 @@
----
-style: dev
-title: Atelier terminal
-type: Atelier
----
-
 # Voyage au centre de l'ordinateur
 
 [⬅ English version](./)
