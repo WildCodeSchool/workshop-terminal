@@ -6,5 +6,5 @@ defaults:
     values:
       layout: "default" # possible values: default or tic-tac
 
-title: "Terminal Workshop"
+title: "Terminal"
 show_clone: false
