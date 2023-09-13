@@ -17,7 +17,7 @@ Si tu es sous Windows, utilise la console `git bash`
 ## Avant de voyager, visite ta propre maison !
 
 Si tu viens juste d’ouvrir la console, tu devrais te trouver chez toi, dans ton dossier utilisateur.<br>
-Pour être sûr de ça, tu peux exécuter la commande suivante :<br>
+Pour être sûr de ça, tu peux exécuter la commande suivante :
 
 ```bash
 cd ~
@@ -27,8 +27,9 @@ cd ~
 - le tilde `~` est un raccourci vers ton dossier utilisateur.
 
 Cette commande est sensée accéder à un dossier, mais si tu l’exécutes avec le paramètre `~`,
-elle te permet de te téléporter dans ta maison !<br><br>
-Tu devrais observer une invite de commande qui ressemble plus ou moins à ça :<br>
+elle te permet de te téléporter dans ta maison !
+
+Tu devrais observer une invite de commande qui ressemble plus ou moins à ça :
 
 ```bash
 wilder@wilder-ThinkPad-T430:~$
@@ -90,7 +91,7 @@ ls
 
 Oula, il y a un paquet de fichiers, tous affichés les uns à côté des autres ! Pas très pratique pour s’y
 retrouver.<br>
-Si tu veux afficher la liste des fichiers verticalement, avec en plus des détails, utilise la commande :<br>
+Si tu veux afficher la liste des fichiers verticalement, avec en plus des détails, utilise la commande :
 
 ```bash
 ls -l
@@ -187,9 +188,9 @@ Tu peux cependant, du moment que tu as assez de droits, forcer les choses avec l
 sudo
 ```
 
-Sous Windows la commande `sudo` n'existe pas. Mais pas de panique, tu peux l'installer !
-Exécute la commande suivante : `curl -s https://raw.githubusercontent.com/imachug/win-sudo/master/install.sh | sh`
-Puis redémarre ta console et tu auras accès à la commande !
+Sous Windows la commande `sudo` n'existe pas. Mais pas de panique, tu peux contourner le problème en lançant `git bash` en mode administrateur !
+Dans ton menu démarrer, fais un clic droit sur l'icône de `git bash` et clique sur "ouvrir en tant qu'administrateur".
+Pour la suite de l'atelier, tu peux taper toutes les commandes sans mettre `sudo` devant.
 {: .alert-warning}
 
 Seule, la commande n’est pas utile, il faut la placer devant la commande que tu veux forcer : essaie de la combiner avec la commande précédente.

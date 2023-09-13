@@ -151,8 +151,9 @@ mkdir: cannot create directory tacosfolder: Permission denied
 
 Indeed, this folder (and several others) is protected, as you didn't specify who you were, Linux doesn't let you get to it. You can, however, as long as you have the correct rights, force commands using the following command: `sudo`
 
-On Windows, the `sudo` command does not exist. But don't panic, you can set it up! Execute the following command: `curl -s https://raw.githubusercontent.com/imachug/win-sudo/master/install.sh | sh`  
-Then reboot your console and you'll have access to the command!\_ Alone, the command is not useful, you have to place it in front of the command you want to force. Try to combine it with the previous command.
+On Windows, the `sudo` command does not exist. But don't panic, you can get around the problem by running `git bash` in administrator mode!
+In your start menu, right-click on the `git bash` icon and click on “open as administrator”.
+For the rest of the workshop, you can type all the commands without putting `sudo` in front of them.
 {: .alert-warning}
 
 Rather than retyping the whole command, use the up arrow on your keyboard. The up/down arrows will allow you to browse through the history of commands you have already typed. Use the left arrow to go back to the beginning of the line and type `sudo` (and a space).  
