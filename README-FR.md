@@ -188,14 +188,14 @@ Tu peux cependant, du moment que tu as assez de droits, forcer les choses avec l
 sudo
 ```
 
-Sous Windows la commande `sudo` n'existe pas. Mais pas de panique, tu peux contourner le problème en lançant `git bash` en mode administrateur !
-Dans ton menu démarrer, fais un clic droit sur l'icône de `git bash` et clique sur "ouvrir en tant qu'administrateur".
+Sous Windows la commande `sudo` n'existe pas. Mais pas de panique, tu peux contourner le problème en lançant `git bash` en mode administrateur !<br>
+Dans ton menu démarrer, fais un clic droit sur l'icône de `git bash` et clique sur "ouvrir en tant qu'administrateur".<br>
 Pour la suite de l'atelier, tu peux taper toutes les commandes sans mettre `sudo` devant.
 {: .alert-warning}
 
 Seule, la commande n’est pas utile, il faut la placer devant la commande que tu veux forcer : essaie de la combiner avec la commande précédente.
 
-Plutôt que de retaper toute la commande, utilise la flèche haut de ton clavier. Le flèches haut/bas te permettent de te balader dans l’historique des commandes que tu as déjà tapé ! Utilise la flèche gauche pour revenir au début de la ligne et taper `sudo` (et un espace).
+Plutôt que de retaper toute la commande, utilise la flèche haut de ton clavier. Les flèches haut/bas te permettent de te balader dans l’historique des commandes que tu as déjà tapé ! Utilise la flèche gauche pour revenir au début de la ligne et taper `sudo` (et un espace).
 
 Tu peux aussi utiliser les raccourcis `Ctrl+A` et `Ctrl+E` pour aller automatiquement au début et à la fin de la ligne.
 
